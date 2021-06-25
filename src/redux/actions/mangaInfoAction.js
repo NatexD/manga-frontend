@@ -7,3 +7,5 @@ const mangaInfo = (info) => {
     }
 }
 module.exports = mangaInfo
+
+export default mangaInfo;
