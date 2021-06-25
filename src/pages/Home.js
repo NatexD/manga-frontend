@@ -27,7 +27,7 @@ const Home = props => {
     React.useEffect(() => {
         const results = mangaList.filter(manga => (manga.name).toLowerCase().includes(searchTerm.toLowerCase()));
         setMangaList(results);
-    }, [searchTerm]);
+    }, [mangaList, searchTerm]);
 
     const handleView = e => {
         let results = mangaList;
